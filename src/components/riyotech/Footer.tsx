@@ -19,7 +19,7 @@ export function Footer() {
 
           <div className="flex items-center gap-6 mt-16">
             <a
-              href="#"
+              href="https://www.instagram.com/1oxsharptechnologies/"
               aria-label="Instagram"
               className="text-white/70 hover:text-[#E94E34] transition-colors"
             >
@@ -27,24 +27,6 @@ export function Footer() {
                 <rect x="2" y="2" width="20" height="20" rx="5" />
                 <circle cx="12" cy="12" r="4.2" />
                 <circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none" />
-              </svg>
-            </a>
-            <a
-              href="#"
-              aria-label="Facebook"
-              className="text-white/70 hover:text-[#E94E34] transition-colors"
-            >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
-                <path d="M15 3h-2.5A4.5 4.5 0 0 0 8 7.5V10H5.5v3.5H8V21h3.5v-7.5h3l.5-3.5h-3.5V7.5c0-.83.67-1.5 1.5-1.5H15V3z" />
-              </svg>
-            </a>
-            <a
-              href="#"
-              aria-label="Twitter"
-              className="text-white/70 hover:text-[#E94E34] transition-colors"
-            >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
-                <path d="M21 5.5c-.7.35-1.5.6-2.3.7a4 4 0 0 0 1.75-2.2c-.77.47-1.62.8-2.53.98a4 4 0 0 0-6.8 3.65A11.3 11.3 0 0 1 3 4.9a4 4 0 0 0 1.24 5.34 4 4 0 0 1-1.8-.5v.05a4 4 0 0 0 3.2 3.92 4 4 0 0 1-1.8.07 4 4 0 0 0 3.73 2.77A8 8 0 0 1 2 18.4a11.3 11.3 0 0 0 6.13 1.8c7.36 0 11.4-6.1 11.4-11.4l-.01-.52c.79-.56 1.47-1.27 2.01-2.08" />
               </svg>
             </a>
             <a
