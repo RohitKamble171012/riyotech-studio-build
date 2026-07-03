@@ -92,7 +92,6 @@ export function Footer() {
                 { label: "Services", to: "/services" },
                 { label: "About", to: "/about" },
                 { label: "Careers", to: "/careers" },
-                { label: "Insights", to: "/insights" },
                 { label: "Contact", to: "/contact" },
               ].map((link) => (
                 <Link
