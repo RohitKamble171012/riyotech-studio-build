@@ -75,10 +75,10 @@ export function Footer() {
               support@riyotech.in
             </a>
             <a
-              href="tel:+911234567890"
+              href="tel:+918010031808"
               className="block w-fit text-lg md:text-xl text-[#E94E34] underline underline-offset-4 decoration-[#E94E34]/40 hover:decoration-[#E94E34] transition-colors"
             >
-              +91 00000 00000
+              +91 80100 31808
             </a>
           </div>
 
