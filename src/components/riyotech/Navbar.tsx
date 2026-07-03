@@ -175,9 +175,8 @@ export function Navbar() {
               Maharashtra,<br /> India
             </div>
             <div className="mt-8 flex items-center gap-5 text-[color:#0d0e12]/60">
-              <a href="#" className="hover:text-[var(--flame)]">Instagram</a>
+              <a href="https://www.instagram.com/1oxsharptechnologies/" className="hover:text-[var(--flame)]">Instagram</a>
               <a href="#" className="hover:text-[var(--flame)]">LinkedIn</a>
-              <a href="#" className="hover:text-[var(--flame)]">Twitter</a>
             </div>
           </div>
         </div>
