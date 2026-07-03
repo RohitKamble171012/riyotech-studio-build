@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
 import { Navbar } from "../components/riyotech/Navbar";
 import { Footer } from "../components/riyotech/Footer";
+import { useChatWidget } from "../components/riyotech/ChatWidgetContext";
 
 export const Route = createFileRoute("/about")({
   component: About,
@@ -208,6 +209,7 @@ function About() {
   const marquee = useReveal<HTMLDivElement>(0.2);
   const testimonialSection = useReveal<HTMLDivElement>(0.1);
   const tagline = useReveal<HTMLDivElement>(0.3);
+  const { open: openChat } = useChatWidget();
 
   useEffect(() => {
     setIsMounted(true);
@@ -413,8 +415,8 @@ function About() {
               Let's work together to build something great.
             </h3>
           </div>
-          <a
-            href="/lets-talk"
+          <button
+            onClick={openChat}
             className="group inline-flex items-center gap-4 text-[11px] font-semibold uppercase tracking-[0.32em] flex-shrink-0"
           >
             <span className="grid h-14 w-14 place-items-center rounded-full border border-white/40 transition-all group-hover:bg-white group-hover:text-[#E94E34]">
@@ -423,7 +425,7 @@ function About() {
             <span className="relative after:absolute after:-bottom-1 after:left-0 after:h-px after:w-full after:origin-left after:scale-x-100 after:bg-white after:transition-transform">
               Say Hello
             </span>
-          </a>
+          </button>
         </div>
       </section>
 
