@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useChatWidget } from "./ChatWidgetContext";
 
-const menuLinks = ["Work", "Services", "About", "Insights", "Contact"];
+const menuLinks = ["Work", "Services", "About", "Careers", "Contact"];
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
